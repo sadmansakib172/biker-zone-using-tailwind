@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -43,7 +43,7 @@
             <div class="navbar">
                 <div class="flex-1">
                     <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <label tabindex="0" class="btn lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -51,17 +51,17 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 rounded-box w-52 hover:text-white">
                             <li><a>Home</a></li>
                             <li><a>Shop</a></li>
                             <li><a>News</a></li>
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl lg:text-4xl">Bike Dekho</a>
+                    <a class="btn text-xl lg:text-4xl">Bike Dekho</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal px-1 hover:text-black">
                         <li><a>Home</a></li>
                         <li><a>Shop</a></li>
                         <li><a>News</a></li>
@@ -69,7 +69,7 @@
                     </ul>
                 </div>
                 <div>
-                    <a class="btn bg-btn-primary text-white">Button</a>
+                    <button><a class="btn bg-btn-primary  text-white px-7 hover:text-black">Login</a></button>
                 </div>
             </div>
         </nav>
@@ -86,7 +86,7 @@
                             <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                             <p>Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                            <a class="btn bg-btn-primary text-white">Purchase</a>
+                            <button><a class="btn bg-btn-primary text-white">Purchase</a></button>
 
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                             <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                             <p>Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                            <a class="btn bg-btn-primary text-white">Purchase</a>
+                            <button><a class="btn bg-btn-primary text-white">Purchase</a></button>
 
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                             <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                             <p>Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                            <a class="btn bg-btn-primary text-white">Purchase</a>
+                            <button><a class="btn bg-btn-primary text-white">Purchase</a></button>
 
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                             <h2 class="text-2xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                             <p>Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                            <a class="btn bg-btn-primary text-white">Purchase</a>
+                            <button><a class="btn bg-btn-primary text-white">Purchase</a></button>
 
                         </div>
                     </div>
@@ -156,21 +156,64 @@
             </div>
         </section>
     </header>
-    <main class="md:container md:mx-auto">
+    <main class="md:container mx-auto">
         <section class="mt-4 md:mt-70">
             <!-- featured bike section starts  -->
             <div class="md:text-center">
                 <h2 class="text-2xl md:text-5xl font-bold ">Fetured Bikes In This Year</h2>
                 <p class="text-xs font-bold  text-btn-primary ">Best bike collection</p>
                 <!-- <p class="border-b-4 border-indigo-500  w-12 mx-auto"></p> -->
-                <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="59" height="1" viewBox="0 0 59 1" fill="none">
+                <svg class="md:mx-auto" xmlns="http://www.w3.org/2000/svg" width="59" height="1" viewBox="0 0 59 1" fill="none">
                     <path d="M0 0.5H58.5" stroke="#E76F51" />
                 </svg>
             </div>
-            <div class="flex flex-col md:justify-center md:flex-row gap-10 md:gap-36 mt-8 md:mt-12">
+            <div class="flex flex-col md:justify-center md:flex-row gap-10 md:gap-36 mt-8 md:mt-12 p-4">
                 <img class=" w-3/4 md:w-[288px]" src="./images/others/extrabike.png" alt="">
                 <img class="w-3/4 md:w-[288px]" src="./images/others/feature-bike.png" alt="">
                 <img class="w-3/4 md:w-[288px]" src="./images/others/extrabike.png" alt="">
+            </div>
+        </section>
+        <!-- latest news section starts  -->
+        <section class="mt-5 md:mt-32">
+            <h2 class="text-2xl md:text-5xl font-bold text-center">latest News</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="card md:w-[337px] md:mx-auto p-5">
+                    <figure class="w-3/4 md:w-full">
+                        <img src="./images/others/latest1.png" alt="car!"/>
+                    </figure>
+                    <div class="card-body p-0">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions mt-4 md:mt-8">
+                        <button class="btn bg-btn-primary text-white">Learn now!</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card md:w-[337px] md:mx-auto p-5">
+                    <figure class="w-3/4 md:w-full">
+                        <img src="./images/others/latest2.png" alt="car!"/>
+                    </figure>
+                    <div class="card-body p-0">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions mt-4 md:mt-8">
+                        <button class="btn bg-btn-primary text-white">Learn now!</button>
+                      </div>
+                    </div>
+                  </div>
+             
+                <div class="card md:w-[337px] md:mx-auto p-5">
+                    <figure class="w-3/4 md:w-full">
+                        <img src="./images/others/latest3.png" alt="car!"/>
+                    </figure>
+                    <div class="card-body p-0">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions mt-4 md:mt-8">
+                        <button class="btn bg-btn-primary text-white">Learn now!</button>
+                      </div>
+                    </div>
+                 </div>
             </div>
         </section>
     </main>
